@@ -1,4 +1,5 @@
 import React from "react";
+import "./Form.css";
 
 // interface IFormProps {
 //   userIsRegistered : false;
@@ -7,7 +8,7 @@ import React from "react";
 
 export const Form: React.FC = (props) => {
   return (
-    <form className="formStyle">
+    <form className="form">
       <input type="text" placeholder="input your email"></input>
       <input type="password" placeholder="input your password"></input>
       {/* {props.isRegistered === fales} is equal with {!props.isReistered} */}

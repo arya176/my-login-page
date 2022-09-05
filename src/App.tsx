@@ -6,7 +6,7 @@ var userIsRegistered = false;
 
 export const App = () => {
   return (
-    <section className=".App">
+    <section className=".container">
       <Form isRegistered={userIsRegistered} />
     </section>
   );
